@@ -1,3 +1,5 @@
+// Change to @fortawesome/pro-light-svg-icons to use the Pro version
+// Use faSunBright for the Pro version
 import {
   faAngleDown,
   faAngleLeft,
@@ -15,7 +17,7 @@ import {
   faMoon,
   faPlus,
   faReceipt,
-  faSun,
+  faSun as faSunBright,
   faXmark
 } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -38,7 +40,7 @@ export const SearchIcon = (props: PartialFontAwesomeIconProps) => {
 };
 
 export const LightModeIcon = (props: PartialFontAwesomeIconProps) => {
-  return <FontAwesomeIcon icon={faSun} {...props} />;
+  return <FontAwesomeIcon icon={faSunBright} {...props} />;
 };
 
 export const DarkModeIcon = (props: PartialFontAwesomeIconProps) => {
