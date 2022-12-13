@@ -2,6 +2,8 @@
 
 This is the client for the Yami Market.
 
+Note: This project needs the [Server](https://github.com/Yami-Market/yami-market-server) to be running in order to work.
+
 ## Installation
 
 ```bash
